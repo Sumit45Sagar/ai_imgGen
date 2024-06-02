@@ -1,0 +1,39 @@
+.header-parent-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    color: rgb(239, 229, 229);
+}
+
+.left a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.left a:hover {
+    background-color: #050000;
+}
+
+.right .profile-icon {
+    background-color: #ffb100;
+    color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.right .profile-icon:hover {
+    background-color: #e6a800;
+}

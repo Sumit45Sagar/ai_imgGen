@@ -1,0 +1,141 @@
+.header-parent-container {
+  color: #efe5e5;
+  background-color: #000;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  display: flex;
+  box-shadow: 0 2px 10px #0003;
+}
+
+.left a {
+  color: #fff;
+  border-radius: 4px;
+  margin-right: 20px;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.left a:hover {
+  background-color: #050000;
+}
+
+.right .profile-icon {
+  color: #000;
+  cursor: pointer;
+  background-color: #ffb100;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-weight: bold;
+  transition: background-color .3s;
+  display: flex;
+}
+
+.right .profile-icon:hover {
+  background-color: #e6a800;
+}
+
+.homepage-main-container {
+  color: #fffcfc;
+  background-color: #050505;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+
+.image-generator-main-container {
+  color: #fff;
+  padding: 24px;
+}
+
+.image-search {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  display: flex;
+
+  & img {
+    width: 300px;
+  }
+}
+
+.history-main-container {
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.history-card {
+  text-align: center;
+  background-color: #333;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 100%;
+  margin: 10px 0;
+  padding: 20px;
+  display: flex;
+}
+
+.history-search-box {
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  display: flex;
+}
+
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #1e90ff;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #3742fa;
+}
+
+input {
+  color: #fff;
+  background-color: #333;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+.history-item {
+  text-align: center;
+  background-color: #222;
+  border-radius: 5px;
+  width: 100%;
+  max-width: 600px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.history-item h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.history-item h3 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+/*# sourceMappingURL=index.c41b5a0e.css.map */
